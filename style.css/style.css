@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #793c11;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000;
+}
+.top-nav a{
+    
+    color:#F5F5DC ;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 40px;
+    transition: color 0.3s ease;
+}
+.top-nav a:hover{
+    color: #DAA520;
+}
+body{
+    padding-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF8F0;
+}
+header{
+    text-align: center;
+    color: #68330d;
+}
+#city{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around ;
+}
+.city-card{
+    
+    text-align: center;
+    background-color: #eee6c5;
+    border: 1PX solid#c0aeae;
+    padding: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.city-card:hover{
+    transform: scale(1.2);
+    box-shadow: 0  8px 15px rgba(0, 0, 0, 0.3)
+}
+.city-card img{
+    border: 5px solid chocolate;
+}
+.section{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    width:100%;
+    height:500px ;
+    background-image: url(../img/kabul.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    animation: slider 5s linear  infinite ;
+}
+@keyframes slider {
+    0%{ background-image: url(../img/kabul\ 1.jpg);  background-size: 100% 100%;}
+    50%{background-image: url(../img/kabul.jpg); background-size: 100% 100%;}
+    100%{background-image: url(../img/m\ kabul.jpg);  background-size: 100% 100%}
+}
+.section h1{
+    border: solid #9c4b11;
+    background-color: #eee6c5;
+}
+.capital img{
+width: 500px;
+height: 300px;
+}
+
+.kabul-card{
+    list-style:none;
+    text-align: center;
+border:4px solid chocolate;
+color: rgb(41, 20, 11);
+/* display: inline-block; */
+background-color: white;
+animation:color 2s  infinite;
+}
+@keyframes color {from{ background-color:white  ;} to{ background-color: chocolate;}
+    
+}
+#img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.card-img{
+
+    object-fit: cover;
+    border-radius: 8px;
+ text-align: center;
+    /* border:chocolate  10px solid; */
+  
+}
+
+#Dress{text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.boy{
+    /* border:chocolate 10px solid ; */
+}
+h4{
+    border:rgb(201, 104, 35) solid;
+    padding: 10px;
+    background-color: rgb(231, 206, 181);
+}
+.text{
+    text-align: center;
+    border: solid chocolate;
+    background-color:rgb(253, 253, 253);
+}
+#now{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.Nowrus{
+    text-align: center;
+    /* border: solid 10px chocolate; */
+}
+.border{
+    /* border: 3px solid #8B4513;
+    padding: 5px;
+    border-radius: 5px; */
+    border: 2px solid #CDAA7D ;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+}
+.border-soft-shadow{
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+}
+.Gallery{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    gap: 20px;
+    text-align: center;
+}
+.beauty{
+    border: solid #c0aeae;
+    padding: 5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.grid{
+    border: solid #c0aeae;
+    padding: 5px;   transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.beauty:hover{  transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);}
+
+ .grid:hover{
+
+ }
+       
+  footer{
+    text-align: center;
+    background-color: #793c11;
+  }
+.button{
+    background-color: #DAA520
+    
+}
+.pashtun{ 
+    text-align: end;
+    color:white;
+    font-size:large;
+    background-image: url(../img/pushton.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+
+}
+.note{
+    color:black;
+    border: #fdfcfc solid;
+    background-color: lavenderblush;
+  text-align:center;
+}
+.tajik{
+    background-image: url(../img/tajik.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 600px;
+    width: 100%;
+}
+.hazara{
+    background-image: url(../img/hazara\ beuty.jpg);
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 650px;
+    width: 100%;
+}
+.video{
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
